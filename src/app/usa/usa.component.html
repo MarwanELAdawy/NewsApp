@@ -1,0 +1,15 @@
+<div class="container-fluid">
+  <div class="row">
+    <div *ngFor="let n of usaNews" class="col-md-3">
+      <div class="card">
+        <img class="card-img-top" [src]="n.urlToImage" alt="">
+        <div class="card-body">
+          <h5 class="card-title">{{n.title | lowercase}}}</h5>
+          <p class="card-text">{{n.description | cut:100}}</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

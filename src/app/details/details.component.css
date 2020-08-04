@@ -1,0 +1,26 @@
+.maro{
+  margin: auto;
+  width: 50%;
+  padding-top: 10px;
+}
+.maro p{
+  text-align: center;
+}
+.maro h5{
+  text-align: center;
+}
+.maro button a:link{
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+button{
+  display: block;
+  margin: 0 auto;
+}
