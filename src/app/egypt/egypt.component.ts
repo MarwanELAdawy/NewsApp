@@ -12,7 +12,8 @@ export class EgyptComponent implements OnInit {
 
   constructor(news: NewsService) {
     news.getNewsEgypt().subscribe((data) => {
-      this.egyptNews = data.articles;
+      this.egyptNews = data.result;
+      console.log(this.egyptNews);
     });
   }
 
